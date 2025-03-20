@@ -3166,6 +3166,10 @@ function ahrs:get_accel() end
 
 -- desc
 ---@return Vector3f_ud
+function ahrs:get_accel_bias() end
+
+-- desc
+---@return Vector3f_ud
 function ahrs:get_gyro() end
 
 -- desc
